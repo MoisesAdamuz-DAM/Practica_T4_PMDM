@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/salmon"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.inventor.InventorFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -15,9 +15,9 @@
 
         <ImageView
             android:id="@+id/imageMona"
-            android:layout_width="262dp"
-            android:layout_height="294dp"
-            android:src="@mipmap/leonardo"
+            android:layout_width="250dp"
+            android:layout_height="198dp"
+            android:src="@mipmap/maquina"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -25,34 +25,33 @@
             app:layout_constraintVertical_bias="0.026" />
 
         <TextView
-            android:id="@+id/txtPintor"
+            android:id="@+id/txtMaquina"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/txtLeonardo"
+            android:text="@string/txtMaquina"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageMona"
-            app:layout_constraintVertical_bias="0.066" />
+            app:layout_constraintVertical_bias="0.047" />
 
         <TextView
-            android:id="@+id/txtEscultor2"
-            android:layout_width="344dp"
-            android:layout_height="267dp"
+            android:id="@+id/txtMona1"
+            android:layout_width="339dp"
+            android:layout_height="177dp"
             android:gravity="center"
-            android:text="@string/txtLeo"
+            android:text="@string/txtMaq"
             android:textColor="@color/black"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtPintor"
-            app:layout_constraintVertical_bias="0.078" />
+            app:layout_constraintTop_toBottomOf="@+id/txtMaquina"
+            app:layout_constraintVertical_bias="0.076" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

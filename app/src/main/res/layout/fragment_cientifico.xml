@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/salmon"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.cientifico.CientificoFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -15,21 +15,21 @@
 
         <ImageView
             android:id="@+id/imageMona"
-            android:layout_width="262dp"
-            android:layout_height="294dp"
-            android:src="@mipmap/leonardo"
+            android:layout_width="297dp"
+            android:layout_height="225dp"
+            android:src="@mipmap/ciencia"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.026" />
+            app:layout_constraintVertical_bias="0.03" />
 
         <TextView
-            android:id="@+id/txtPintor"
+            android:id="@+id/txtCiencia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/txtLeonardo"
+            android:text="@string/txtCientifico"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -41,18 +41,18 @@
             app:layout_constraintVertical_bias="0.066" />
 
         <TextView
-            android:id="@+id/txtEscultor2"
-            android:layout_width="344dp"
-            android:layout_height="267dp"
+            android:id="@+id/txtCientifico2"
+            android:layout_width="350dp"
+            android:layout_height="279dp"
             android:gravity="center"
-            android:text="@string/txtLeo"
+            android:text="@string/txtCien"
             android:textColor="@color/black"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtPintor"
+            app:layout_constraintTop_toBottomOf="@+id/txtCiencia"
             app:layout_constraintVertical_bias="0.078" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

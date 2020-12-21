@@ -1,16 +1,16 @@
-package com.example.davinciapp.ui.gallery;
+package com.example.davinciapp.ui.inventor;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class InventorViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public InventorViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Máquina Voladora");
     }
 
     public LiveData<String> getText() {

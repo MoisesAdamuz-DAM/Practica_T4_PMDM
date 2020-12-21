@@ -1,16 +1,16 @@
-package com.example.davinciapp.ui.slideshow;
+package com.example.davinciapp.ui.pintor;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class PintorViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public PintorViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("La Mona Lisa");
     }
 
     public LiveData<String> getText() {

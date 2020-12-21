@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/salmon"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.pintor.PintorFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -13,11 +13,42 @@
         tools:layout_editor_absoluteX="103dp"
         tools:layout_editor_absoluteY="127dp">
 
+        <TextView
+            android:id="@+id/txtMona3"
+            android:layout_width="317dp"
+            android:layout_height="126dp"
+            android:gravity="center"
+            android:text="@string/txtMona3"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.531"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtMona2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/txtMona2"
+            android:layout_width="323dp"
+            android:layout_height="144dp"
+            android:gravity="center"
+            android:text="@string/txtMona2"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtEscultor2"
+            app:layout_constraintVertical_bias="0.0" />
+
         <ImageView
             android:id="@+id/imageMona"
-            android:layout_width="262dp"
-            android:layout_height="294dp"
-            android:src="@mipmap/leonardo"
+            android:layout_width="263dp"
+            android:layout_height="275dp"
+            android:src="@mipmap/mona"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,30 +60,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/txtLeonardo"
+            android:text="@string/txtMona"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageMona"
-            app:layout_constraintVertical_bias="0.066" />
+            app:layout_constraintVertical_bias="0.025" />
 
         <TextView
             android:id="@+id/txtEscultor2"
-            android:layout_width="344dp"
-            android:layout_height="267dp"
+            android:layout_width="315dp"
+            android:layout_height="83dp"
             android:gravity="center"
-            android:text="@string/txtLeo"
+            android:text="@string/txtMona1"
             android:textColor="@color/black"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtPintor"
-            app:layout_constraintVertical_bias="0.078" />
+            app:layout_constraintVertical_bias="0.025" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

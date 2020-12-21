@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/salmon"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.escultor.EscultorFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -15,9 +15,9 @@
 
         <ImageView
             android:id="@+id/imageMona"
-            android:layout_width="262dp"
-            android:layout_height="294dp"
-            android:src="@mipmap/leonardo"
+            android:layout_width="271dp"
+            android:layout_height="176dp"
+            android:src="@mipmap/caballo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,30 +29,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/txtLeonardo"
+            android:text="@string/txtEscultor"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageMona"
-            app:layout_constraintVertical_bias="0.066" />
+            app:layout_constraintVertical_bias="0.033" />
 
         <TextView
             android:id="@+id/txtEscultor2"
-            android:layout_width="344dp"
-            android:layout_height="267dp"
+            android:layout_width="342dp"
+            android:layout_height="200dp"
             android:gravity="center"
-            android:text="@string/txtLeo"
+            android:text="@string/txtEscultor1"
             android:textColor="@color/black"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtPintor"
-            app:layout_constraintVertical_bias="0.078" />
+            app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
